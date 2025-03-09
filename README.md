@@ -50,23 +50,7 @@ This **responsive portfolio website** was developed to present my work and skill
 - **EmailJS** for handling form submissions.
 - **Remix Icons** for icons.
 
-## 🛠️ Setup & Installation
-
-1. Clone the repository:
-
-```bash
-git clone https://github.com/Mihaela-Oprea/portfolio.git
-```
-
-2. Open the project folder:
-
-```bash
-cd portfolio
-```
-
-3. Open `index.html` in a browser.
-
-For email functionality, replace the **EmailJS service ID, template ID, and public key** in `main.js` with your own.
+---
 
 ## 📄 License
 
