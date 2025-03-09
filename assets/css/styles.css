@@ -456,6 +456,7 @@ body.dark-theme {
 }
 
 .home__social {
+  visibility: hidden;
   height: max-content;
   position: absolute;
   left: -3rem;
@@ -1372,6 +1373,7 @@ body.dark-theme {
   }
 
   .home__social {
+    visibility: visible;
     left: initial;
     right: -6rem;
   }
