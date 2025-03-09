@@ -58,7 +58,7 @@ This project is licensed under the **MIT License**.
 
 ## 🧑‍💻 Author
 
-Created with ❤️ by **Bedimcode** and built from scratch by **Mihaela Oprea** following the tutorial.
+Created with ❤️ by **Bedimcode** and built from scratch by me following the tutorial.
 
 
 - [LinkedIn](https://www.linkedin.com/in/mihaela-oprea89/)
