@@ -8,6 +8,13 @@ This **responsive portfolio website** was developed to present my work and skill
 
 ---
 
+## 🧑‍💻 Author
+
+Created with ❤️ by **Bedimcode** and built from scratch by me following his tutorial.
+
+
+---
+
 ## 🚀 Features
 
 ### 🏠 Homepage
@@ -55,10 +62,5 @@ This **responsive portfolio website** was developed to present my work and skill
 ## 📄 License
 
 This project is licensed under the **MIT License**.
-
-## 🧑‍💻 Author
-
-Created with ❤️ by **Bedimcode** and built from scratch by me following his tutorial.
-
 
 
