@@ -143,6 +143,14 @@ body.dark-theme {
   );
 }
 
+.dark-theme .certifications {
+  background-color: hsla(0, 0%, 12%, 0.353);
+}
+
+.dark-theme .certifications__card:hover {
+  background-color: var(--body-color);
+}
+
 .dark-theme :is(.button__ghost, .services__icon i) {
   color: var(--white-color);
 }
@@ -1114,6 +1122,81 @@ body.dark-theme {
 /* Show Scroll Up */
 .show-scroll {
   bottom: 3rem;
+}
+
+/*=============== CERTIFICATIONS ===============*/
+.certifications {
+  background-color: hsla(0, 0%, 83%, 0.471);
+  transition: background-color 0.4s;
+}
+
+.certifications__container {
+  row-gap: 2rem;
+}
+
+.certifications__card {
+  padding: 1rem 1rem 2rem;
+  transition: background-color 0.4s;
+}
+
+.certifications__image {
+  position: relative;
+  margin-bottom: 0.75rem;
+}
+
+.certifications__button {
+  position: absolute;
+  right: 1rem;
+  bottom: -1.5rem;
+  padding: 1rem;
+}
+
+.certifications__content {
+  margin-bottom: 1.25rem;
+}
+
+.certifications__title {
+  font-size: var(--h3-font-size);
+  margin-bottom: 0.75rem;
+}
+
+.certifications__description {
+  font-size: var(--small-font-size);
+  color: var(--text-color);
+}
+
+.certifications__card:hover {
+  background-color: var(--white-color);
+}
+
+/* Responsive Design */
+@media screen and (min-width: 768px) {
+  .certifications__container {
+    grid-template-columns: repeat(2, 350px);
+  }
+}
+
+@media screen and (min-width: 1150px) {
+  .certifications__container {
+    grid-template-columns: repeat(3, 352px);
+    padding-block: 3rem 1rem;
+  }
+
+  .certifications__card {
+    padding: 1.25rem 1.25rem 2.5rem;
+  }
+
+  .certifications__image {
+    margin-bottom: 1rem;
+  }
+
+  .certifications__content {
+    margin-bottom: 2rem;
+  }
+
+  .certifications__button {
+    right: 1.25rem;
+  }
 }
 
 /*=============== BREAKPOINTS ===============*/
